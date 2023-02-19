@@ -1,8 +1,4 @@
 cmake_minimum_required(VERSION 3.1)
-enable_testing()
-
-set(CMAKE_CXX_STANDARD 17)
-set_property(GLOBAL PROPERTY CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 install(DIRECTORY "${CMAKE_SOURCE_DIR}/src/" # source directory
         DESTINATION "include/serialize" # target directory
